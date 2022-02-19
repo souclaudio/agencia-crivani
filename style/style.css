@@ -31,17 +31,17 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .cabecalho-logo {
-    height: 50px
+    height: 40px
 }
 
 .cabecalho-menu {
-    display: block;
-    gap: 30px;
+    display: flex;
+    gap: 10px;
 }
 
 .cabecalho-menu-item {
