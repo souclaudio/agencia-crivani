@@ -10,7 +10,7 @@
     --cor-branco:#ffffff;
     --cor-preto:#000000;
 
-    --font-padrão:'Helvetica', sans-serif;
+    --font-padrão:Arial, 'Helvetica', sans-serif;
     --font-archivo:'Archivo', cursive;
 }
 
@@ -21,30 +21,5 @@
 
 body {
     font-family:var(--font-padrão);
-}
-
-.logo {
-    width: 10%;
-    height:10%;
-}
-
-nav {
-    text-decoration: none;
-
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--cor-2);
-    text-align: right;
-}
-
-nav a:hover {
-    background-color: var(--cor-1);
-}
-
-nav button {
-    background-color: var(--cor-1);
-    border-radius: 15px;
-    text-align: right;
+    font-weight: bolder;
 }
