@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
 
-@font-face {
-    font-family: ;
-    src: url();
-}
-
 :root {
     --cor-1:#ff583f;
     --cor-2:#3C3644;
@@ -15,16 +10,44 @@
     --cor-branco:#ffffff;
     --cor-preto:#000000;
 
-    --font-padrão:Arial, 'Helvetica', sans-serif;
+    --font-padrão:Arial, Helvetica, sans-serif;
     --font-archivo:'Archivo', cursive;
 }
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    font-family:var(--font-padrão);
-    font-weight: bolder;
+    font-size: 100%;
+    background-color: var(--cor-branco);
 }
+
+.cabecalho {
+    background-color: var(--cor-1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabecalho-logo {
+    height: 50px
+}
+
+.cabecalho-menu {
+    display: block;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+
+}
+
+.cabecalho-menu-butao
+
+
