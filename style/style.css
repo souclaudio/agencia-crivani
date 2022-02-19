@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-1:#ff583f;
+    --cor-2:#3C3644;
+    --cor-3:#E6E6E6;
+    --cor-4:#39393a;
+    --cor-branco:#ffffff;
+    --cor-preto:#000000;
+
+    --font-padrão:'Helvetica', sans-serif;
+    --font-archivo:'Archivo', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:var(--font-padrão);
+}
+
+.logo {
+    width: 10%;
+    height:10%;
+}
+
+nav {
+    text-decoration: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-2);
+    text-align: right;
+}
+
+nav a:hover {
+    background-color: var(--cor-1);
+}
+
+nav button {
+    background-color: var(--cor-1);
+    border-radius: 15px;
+    text-align: right;
+}
