@@ -43,3 +43,7 @@ body {
     display: flex;
     gap: 10px;
 }
+
+main section img {
+    width: 30%;
+}
