@@ -40,25 +40,20 @@ body {
     font-size: 100%;
     background-color: var(--cor-branco);
     font-family: var(--font-space-grotesk);
-    margin: auto;
 }
 
-header {
+header.cabecalho {
     width: 100%;
     background-color: var(--cor-2);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 .cabecalho-logo {
     width: 50px;
-}
-
-.container-logo {
-    display: flex;
-    align-items: center;
+    
 }
 
 .container-menu li {
@@ -77,11 +72,22 @@ header {
     background-color: var(--cor-1);
 }
 
+.cabecalho-menu-butao {
+    position: absolute;
+    background-color: var(--cor-1);
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    font-family: var(--font-padrão-bold); 
+}
+
 
 main{
     padding: 20px;
-    min-width: 250px;
-    max-width: 1400px;
+    min-width: 400px;
+    max-width: 1500px;
     margin: auto;
 }
 
@@ -119,13 +125,11 @@ p.texto-principal {
 button.botao-principal {
     background-color: var(--cor-1);
     height: 50px;
-    width: 200px;
-    padding: 10px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
     font-size: 1.2em;
-    text-shadow: none;
     font-family: var(--font-padrão-bold);
-    text-align: center;    
 }
 
 button.botao-principal a{
