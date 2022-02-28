@@ -54,7 +54,6 @@ header {
 
 .cabecalho-logo {
     width: 50px;
-    height: 50px;
 }
 
 .container-logo {
@@ -65,13 +64,17 @@ header {
 .container-menu li {
     display: inline-block;
     margin: 10px 10px;
-    font-size: ;
+    font-family: var(--font-padrão-bold);
 }
 
 .container-menu li a {
     color: var(--cor-branco);
     border: 0px 10px;
     padding: 10px 20px;
+}
+
+.container-menu li a:hover {
+    background-color: var(--cor-1);
 }
 
 
@@ -131,5 +134,4 @@ button.botao-principal a{
 
 #imagem-titulo-principal {
     width: 1000px;
-    height: 1000px;
 }
