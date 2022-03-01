@@ -120,7 +120,7 @@ body {
 .conteudo-principal-titulo {
     font-family: var(--font-padrão-bold);
     font-size: 4.75em;
-    line-height: 70px;
+    line-height: 80px;
     color: var(--cor-2);
 }
 
@@ -140,6 +140,10 @@ strong {
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 8px #e01e005b;
+}
+
+.conteudo-principal-butao:hover {
+    background-color: #FF3D1F;
 }
 
 .conteudo-principal-link {
