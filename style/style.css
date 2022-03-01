@@ -122,15 +122,19 @@ body {
     font-size: 4.75em;
     line-height: 80px;
     color: var(--cor-2);
+    max-width: 780px;
 }
 
 strong {
     color: var(--cor-1);
+    font-size: 1.2em;
+
 }
 
 .conteudo-principal-texto {
     font-size: 1.4em;
     padding: 20px 0px;
+    max-width: 619px;
 }
 
 .conteudo-principal-butao {
@@ -140,6 +144,9 @@ strong {
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 8px #e01e005b;
+    color: var(--cor-branco);
+    font-family: var(--font-padrão-bold);
+    font-size: 1.5em;
 }
 
 .conteudo-principal-butao:hover {
@@ -153,6 +160,6 @@ strong {
 }
 
 .conteudo-principal-imagem {
-    min-width: 900px;
+    min-width: 400px;
     max-width: 900px;
 }
